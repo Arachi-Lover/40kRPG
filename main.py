@@ -1,7 +1,7 @@
 import streamlit as st
 from utils.data_loader import load_classes_data
 from utils.constants import menu_options
-from sections import campaign, classes, lore, rules
+from sections import classes, lore, rules
 
 # Configuração inicial da página
 st.set_page_config(
@@ -34,5 +34,3 @@ elif selected_option == "Regras":
     rules.show()
 elif selected_option == "Classes":
     classes.show(classes_data)
-elif selected_option == "Campanha":
-    campaign.show()
