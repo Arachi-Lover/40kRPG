@@ -11,6 +11,26 @@ Estamos no 41º milênio. O Império humano está em crise permanente há 10.000
 Na sinistra escuridão do futuro, só há guerra.
 """
 
+# Conteúdo da Campanha
+campaign_content = """
+## Cenário Inicial
+
+Das poderosas 47 naves da Frota Exploratória Gaia, liderada pelo Archmagos Explorador Vitruvius, encarregado de descobrir a fonte de sinais archeotécnicos antigos vindos das longíquas Estrelas Fantasma, uma única fragata desengonçada e caindo aos pedaços foi tudo que conseguiu retornar para às docas do Anel de Ferro de Marte. Vitruvius não estava entre os sobreviventes, nem nehum de seus oficiais e suboficiais. Apenas uma cambada de tech priests de baixo escalão foram capazes de retornar com vida - segundo suas próprias alegações, que foram muito questionadas e tópico de muito ceticismo por parte do Culto Mechanicus e da Inquisição.
+
+Após rodadas de interrogatórios intermináveis e processos minuciosos de filtragem e investigação dos dados retidos pelos repositórios cerebrais dos adeptos, foi determinado que diziam a verdade... o que gerou ainda mais preocupação e tumulto em Marte e também em santa Terra.
+
+Os sobreviventes afirmaram que a expedição havia chegado ao seu destino, e em meio às vasculhas por planetoides e campos de asteróides sem vida, encontraram os remanescentes de uma pequana colônia da humanidade, cuja fundação data cerca de 20.000 anos atrás. Em meio às ruínas do mundo, identificado pelos registros fornecidos pelo Adeptus Administratum como Cornos Procopios, foi determinada pelos procedimentos de escaneamento atmosférico e planetário, sem sombra de dúvida, a existência de um cofre reforçado, contendo dezenas de Construtos de Modelo Padrão (CMP).
+
+CMPs são as relíquias mais valiosas para o Culto Mecanicus, e de fato, para a humanidade como um todo. Cada um representa uma peça do antigo avanço e poderio descomunal da humanidade em seu ápice tecnológico. O conhecimento para desenvolver boa parte do que já foi possível está perdido, mas as CMPs são formas de recuperar isso tudo, sendo máquinas capazes de analisar a biosfera de um mundo por completo e, com base nos recursos que identificar, fornecer passos claros de como produzir uma infinidade de disposivitos para colonização, sobrevivência, defesa e construção de infraestrutura praticamente inexistente hoje em dia.
+
+Assim que a notícia chegou a Olympus Mons, o General Fabricador em pessoa ordenou uma nova onda de explorações para recuperar essa biblioteca. Nunca longe da informação, a Inquisição também lançou suas próprias diretivas para redobrar os esforços de recuperação da tecnologia e, de forma mais particular, monitorar as expedições do Mechanicus, dada à natureza misteriosa da perda total da frota...
+
+Uma das frotas exploratórias que partirá para além do Segmentum Ultima, para a extrema fronteira oriental da galáxia, até as Estrelas Fantasma, é a companhia da Mercadora Tratante Suzanna von Varma, uma jovem porém experiente capitã que recebeu apoio tanto do Mechanicus quanto da Inquisição para sua expedição.
+
+Você é um entre 6 indivíduos de renome que foram convocados para auxiliar a lady capitã Suzanna, atuando com seus companheiros como um esquadrão especial para recuperar a biblioteca de CMPs que os espera em Cornos Procopios - ou morrer tentando...
+
+"""
+
 # Conteúdo das Regras
 rules_content = """
 ## Regras do Sistema
@@ -47,7 +67,8 @@ rules_content = """
 menu_options = {
     "Lore": "Informações sobre o universo de Warhammer 40k",
     "Regras": "Sistema de regras do RPG",
-    "Classes": "Detalhes sobre as classes disponíveis"
+    "Campanha": "Informações sobre o cenário para a campanha",
+    "Classes": "Detalhes sobre as classes disponíveis",
 }
 
 # Factions data
